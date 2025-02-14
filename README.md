@@ -36,8 +36,8 @@
 
 1. Clone the Repository -
 ```
-   git clone https://github.com/your-username/task-management-system.git
-   cd task-management-system
+   git clone[ https://github.com/your-username/task-management-system.git](https://github.com/vinodkumarkuruva/Task_Management.git)
+   cd Task_Management
 ```
 
 2. Set Up a Virtual Environment (Optional but Recommended) -
