@@ -64,7 +64,7 @@ env\Scripts\activate         # On Windows
 5. Apply Database Migrations -
 
    ```
-    python manage.py migrate
+   python manage.py migrate
    python manage.py makemigrations <app_name>
    python manage.py migrate
    ```
