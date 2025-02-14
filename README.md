@@ -110,3 +110,7 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 
 ```
+
+- Replace EMAIL_HOST_USER with your email address
+
+- Replace EMAIL_HOST_PASSWORD with the app password you generated
