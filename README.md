@@ -36,7 +36,7 @@
 
 1. Clone the Repository -
 ```
-   git clone[ https://github.com/your-username/task-management-system.git](https://github.com/vinodkumarkuruva/Task_Management.git)
+   git clone https://github.com/vinodkumarkuruva/Task_Management.git
    cd Task_Management
 ```
 
