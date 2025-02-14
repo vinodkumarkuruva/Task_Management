@@ -4,16 +4,17 @@
 
 Features : 
 
-User Registration: Allow users to create new accounts by providing basic information.
-Email Confirmation: Send a confirmation email to verify user accounts.
-Login: Secure user authentication.
-Logout: Allow users to log out securely from their accounts.
-Forgot Password: Enable users to reset their passwords via email.
-Password Reset: Allow users to set a new password after forgetting the old one.
-Task creation with priority and due dates.
-Update task details and status.
-Filter and search tasks.
-Responsive user interface using Bootstrap.
+- **User Registration:** Allow users to create new accounts by providing basic information. 
+
+- **Email Confirmation:** Send a confirmation email to verify user accounts. 
+
+- **Login:** Secure user authentication. Logout: Allow users to log out securely from their accounts. 
+
+- **Forgot Password:** Enable users to reset their passwords via email. 
+
+- **Password Reset:** Allow users to set a new password after forgetting the old one. 
+
+- **Tasks:** Task creation with priority and due dates. Update task details and status. Filter and search tasks. Responsive user interface using Bootstrap.
 
 Technologies Used  :
 
