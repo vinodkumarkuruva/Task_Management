@@ -1,6 +1,6 @@
 # Title -  Task Management System
 
-Description : Welcome to the Django Authentication Starter project! This project provides a solid foundation for building web applications with user authentication features, including user registration, login, logout, forgot password, password reset, and email confirmation. And To manage and track tasks efficiently. Users can create, update, and manage tasks with priority and status tracking.
+    Welcome to the Django Authentication Starter project! This project provides a solid foundation for building web applications with user authentication features, including user registration, login, logout, forgot password, password reset, and email confirmation. And To manage and track tasks efficiently. Users can create, update, and manage tasks with priority and status tracking.
 
 Features : 
 
