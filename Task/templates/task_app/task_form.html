@@ -1,0 +1,16 @@
+{% extends 'task_app/base.html' %}
+{% block title %}{{ task.id|default:"Add Task" }}{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h1 class="text-center mb-4">{{ task.id|default:"Add Task" }}</h1>
+        <form method="POST" enctype="multipart/form-data" class="p-4 shadow rounded bg-white">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

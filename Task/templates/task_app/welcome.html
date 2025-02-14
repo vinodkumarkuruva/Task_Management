@@ -1,0 +1,19 @@
+{% extends 'task_app/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-primary mb-4">Welcome to Task Management</h1>
+    <p class="lead">
+        {% if user.is_authenticated %}
+            <strong>Hello,{{ user.username }}</strong>!!!
+            <br>
+            <br>
+            <a href="{% url 'task_app:task_list' %}" class="btn btn-primary text-decoration-none">You can see the Tasks Here..</a>
+
+        {% else %}
+            Please <a href="{% url 'task_app:user_login' %}" class="text-decoration-none">login</a> or 
+            <a href="{% url 'task_app:register' %}" class="text-decoration-none">register</a>.
+        {% endif %}
+    </p>
+</div>
+{% endblock %}
