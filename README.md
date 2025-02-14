@@ -19,8 +19,11 @@ Features :
 Technologies Used  :
 
 **Backend   :**  Django
+
 **Frontend :**  HTML, CSS, Bootstrap
+
 **Database:**  SQLite (default) or PostgreSQL
+
 **Authentication:** Django's built-in authentication system
 
 Prerequisites :
