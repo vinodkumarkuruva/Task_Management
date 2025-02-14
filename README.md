@@ -80,3 +80,21 @@ env\Scripts\activate         # On Windows
    python manage.py runserver
    Access the application at : http://127.0.0.1:8000/
  ```
+
+## Setting up Email Backend
+
+The Email Backend will let you send emails to users for email confirmation, password reset, etc. To set up the email backend, follow these steps:
+
+- To get email app password : Go to https://myaccount.google.com/
+
+- Click on Security
+
+- Set up your 2-Step Verification
+
+- Click on App Passwords
+
+- Input an App Name and click on Create
+
+- Copy the generated password
+
+- Make sure you have to following in your settings.py file
