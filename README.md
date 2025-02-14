@@ -35,3 +35,44 @@ Installation & Setup :
    git clone https://github.com/your-username/task-management-system.git
    cd task-management-system
 ```
+
+2. Set Up a Virtual Environment (Optional but Recommended) -
+
+```
+python -m venv env
+env\Scripts\activate         # On Windows
+```
+
+3. Install Required Dependencies -
+   
+   ```
+   pip install -r requirements.txt
+   ```
+   
+ 4. Configure the Database -
+    
+   ```
+      By default, the app uses SQLite.
+      For PostgreSQL:
+      Update the DATABASES setting in settings.py.
+   ```
+
+5. Apply Database Migrations -
+
+   ```
+    python manage.py migrate
+   python manage.py makemigrations <app_name>
+   python manage.py migrate
+   ```
+
+6. Create a Superuser -
+
+   ```
+   python manage.py createsuperuser
+   ```
+   
+7. Run the Server -
+   ```
+   python manage.py runserver
+   Access the application at : http://127.0.0.1:8000/
+ ```
