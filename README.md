@@ -76,14 +76,15 @@ env\Scripts\activate         # On Windows
    ```
    
 7. Run the Server -
-   ```
+   
+```
    python manage.py runserver
    Access the application at : http://127.0.0.1:8000/
  ```
 
 ## Setting up Email Backend
 
-The Email Backend will let you send emails to users for email confirmation, password reset, etc. To set up the email backend, follow these steps:
+ The Email Backend will let you send emails to users for email confirmation, password reset, etc. To set up the email backend, follow these steps:
 
 - To get email app password : Go to https://myaccount.google.com/
 
@@ -98,3 +99,14 @@ The Email Backend will let you send emails to users for email confirmation, pass
 - Copy the generated password
 
 - Make sure you have to following in your settings.py file
+
+```
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+
+```
