@@ -26,11 +26,11 @@
 
 **Authentication:** Django's built-in authentication system
 
-Prerequisites :
+## Prerequisites :
 
-Python 3.8+
-pip (Python package installer)
-Git
+- Python 3.8+
+- pip (Python package installer)
+- Git
 
 Installation & Setup : 
 
