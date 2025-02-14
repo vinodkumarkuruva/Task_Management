@@ -2,7 +2,7 @@
 
    Welcome to the Django Authentication Starter project! This project provides a solid foundation for building web applications with user authentication features, including user registration, login, logout, forgot password, password reset, and email confirmation. And To manage and track tasks efficiently. Users can create, update, and manage tasks with priority and status tracking.
 
-Features : 
+## Features : 
 
 - **User Registration:** Allow users to create new accounts by providing basic information. 
 
@@ -16,7 +16,7 @@ Features :
 
 - **Tasks:** Task creation with priority and due dates. Update task details and status. Filter and search tasks. Responsive user interface using Bootstrap.
 
-Technologies Used  :
+## Technologies Used  :
 
 **Backend   :**  Django
 
